@@ -1,0 +1,12 @@
+{
+  "name": "responsive-navbar",
+  "version": "1.0.0",
+  "description": "Responsive-Navbar, By: Eugen C. Vladoi",
+  "main": "index.js",
+  "scripts": {
+    "responsive-navbar": "node-sass -w scss/ -o public/css/ --recursive",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "Eugen C. Vladoi",
+  "license": "MIT"
+}
